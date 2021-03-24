@@ -12,6 +12,8 @@ echo "Greetings User! Welcome to Avi Kaura's Calculator"
   M) Multiply
   E) Exit"
 # Then, capture the user selection
+echo " please select a operation from the above list"
+read user_input
 # If the selection matches a supported operation, execute the operation.
 # If the selection does not match a support operation, display an error message.
 # When the operation is complete, redisplay the menu.
