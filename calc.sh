@@ -16,7 +16,7 @@ echo "Greetings User! Welcome to Avi Kaura's Calculator"
 echo "please select a operation from the above list"
 read input
 # If the selection matches a supported operation, execute the operation
-if [[ $input == exit || $input == Exit ]];then
+if [[ $input == Exit || $input == E ]];then
 	exit
 fi
 
